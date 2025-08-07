@@ -1,0 +1,28 @@
+.heroCard{
+	max-width: 1000px;
+	margin: 2rem auto;
+	border-radius: 16px !important;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	text-align: center;
+}
+
+.heroCard:hover {
+	transform: scale(1.02);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.heroImage{
+	height: 850px;;
+	object-fit: cover;
+}
+
+.heroTitle{
+font-size: 3rem;
+font-weight: 300;
+text-transform: uppercase;
+letter-spacing: 40em;
+text-align: center;
+padding: 35px;
+color: #333;
+}

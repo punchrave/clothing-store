@@ -1,0 +1,29 @@
+.modalBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+	padding: 2rem;
+	border-radius: 12px;
+	outline: none;
+}
+
+.loginForm{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.loginButton {
+	margin-top: 1rem !important;
+	background-color: #000 !important;
+	color: #fff !important;
+	padding: 1rem !important;
+	border-radius: 8px !important;
+	cursor: pointer;
+}
+
